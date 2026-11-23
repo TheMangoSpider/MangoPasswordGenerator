@@ -1,8 +1,18 @@
 {
   "manifest_version": 3,
   "name": "MangoPasswordGenerator",
-  "version": "0.1",
+  "version": "1.0",
   "action": {
     "default_popup": "popup.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "mango-password-generator@example.com",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
   }
 }
